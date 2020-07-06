@@ -4,6 +4,8 @@ import { Row, Col, List } from 'antd';
 import Header from '../components/Header';
 import '../static/style/components/index.css';
 import Author from '../components/Author';
+import Advert from '../components/Advert';
+import Footer from '../components/Footer';
 
 const Home = () => {
   
@@ -41,10 +43,12 @@ const Home = () => {
           )}
         />
       </Col>
-      <Col className='comm-box' xs={0} sm={0} md={7} lg={5} xl={4}>
+      <Col className='comm-right' xs={0} sm={0} md={7} lg={5} xl={4}>
         <Author />
+        <Advert />
       </Col>
     </Row>
+    <Footer />
   </>
   );
 }

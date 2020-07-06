@@ -5,7 +5,7 @@ import '../static/style/components/author.css';
 
 const Author = () => {
   return (
-    <div className='author-div comm--box'>
+    <div className='author-div comm-box'>
       <div><Avatar size={100} src='http://blogimages.jspang.com/blogtouxiang1.jpg'></Avatar></div>
       <div className='author-introduction'>
         50元跟着胖哥学一年，掌握程序的学习方法。 也许你刚步入IT行业，也许你遇到了成长瓶颈，也许你不知道该学习什么知识，也许你不会融入团队，也许...........有些时候你陷入彷徨。
